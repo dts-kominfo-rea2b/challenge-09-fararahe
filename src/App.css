@@ -1,4 +1,45 @@
+body{
+  background-color: #f9ebd7;
+}
+
 .App {
+  width: 100%;
+  margin: 0dp;
   text-align: center;
-  display: flex;
+  display: block;
+}
+
+.Header{
+  width: 70%;
+  margin: auto;
+}
+
+hr{
+  border-top: 3px dotted red
+}
+
+.Contact{
+  width: 50%;
+  height: 120px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #f4deb3;
+}
+
+.Left{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.Left > img{
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.Right{
+  float: right;
+  width: 50%;
+  height: 100%;
 }
