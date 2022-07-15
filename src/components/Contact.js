@@ -10,7 +10,7 @@ const Contact = () => {
                 contacts.map((item) => {
                     return <div className='Contact'>
                         <div className='Left'>
-                            <img src={item.photo} width="100dp" height="100dp"/>
+                            <img src={item.photo} alt={item.name}/>
                         </div>
                         <div className='Right'>
                             <p>
@@ -22,11 +22,6 @@ const Contact = () => {
                     </div>
                 })
             }
-        {
-            // contacts.map((item) => {
-            //     return <li key="{item.name}">{`${item.name} : ${item.phone}`}</li>
-            // })
-        }
         </div>
     )
 }
